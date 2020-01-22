@@ -33,7 +33,8 @@ The defualt number of permutations is 10,000 (which gives the smallest p-value o
 Example: please see example/example.phenotype
 
 Format:
-<sample id>,<case-control status (1 for case, 0 for control)>
+
+**sample_id,case-control_status (1 for case, 0 for control)**
 
 sample id needs to be unique.
 
@@ -53,13 +54,13 @@ Example: example/example.geno
 
 Format:
 
-var1_for_sample1,var2_for_sample1, ... ,varN_for_sample1
+**var1_for_sample1,var2_for_sample1, ... ,varN_for_sample1
 
-var1_for_sample2,var2_for_sample2, ... ,varN_for_sample2
+**var1_for_sample2,var2_for_sample2, ... ,varN_for_sample2
 
-...
+**...
 
-var1_for_sampleM,var2_for_sampleM, ... ,varN_for_sampleM
+**var1_for_sampleM,var2_for_sampleM, ... ,varN_for_sampleM
 
 Rows represent samples. Columns represent variants. Genotypes are 0 (homozygous ref), 1 (heterozygous), and 2 (homozygous alt). The order of samples needs to be consistent with the order in phenotype file (i.e. k-th row corresponds to the genotypes of the k-th sample in the phenotype file). The order of variants needs to be consistent with the order in variant definition file (i.e. the genotypes in the k-th column corresponds to the variant in the k-th row in the variant definition file).
 
@@ -69,7 +70,7 @@ Example: example/example.gene
 
 Format:
 
-gene_name,length
+**gene_name,length
 
 Make sure that the gene length needs to be greater than the position of any variant occurred in that gene.
 
@@ -79,7 +80,7 @@ Example: example/gene.set
 
 Format:
 
-gene_set_name \t description \t gene_name \[\t gene name\]
+**gene_set_name \t description \t gene_name \[\t gene name\]
 
 The format follows the text format used in MSigDB (http://www.broadinstitute.org/gsea/msigdb/index.jsp).
 
