@@ -8,7 +8,9 @@ JAVA virtual machine 1.6 or above is required.
 
 ## Example
 
-To run BOMP using the example files provided in exmaple/, please put the jar file (**bomp.release.jar**) and **files in example/** in the same directory. Then you should be able to run BOMP using the following command:
+Put **bomp.release.jar** and **files in example/** in the same directory.
+
+Run BOMP using the following command:
 
 java -Xmx4000M -jar bomp.release.jar -p example.phenotype -v example.var -g example.geno -u example.gene --permutation 1000 --geneSet gene.set
 
