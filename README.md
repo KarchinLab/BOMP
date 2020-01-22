@@ -16,7 +16,7 @@ java -Xmx4000M -jar bomp.release.jar -p example.phenotype -v example.var -g exam
 
 The result will be saved in bomp.out.
 
-## Parameter setting
+## Parameter Setting
 
 Running BOMP without any parameters will list all parameters that can be tuned for BOMP:
 
@@ -26,7 +26,7 @@ Note that the current parameter setting is designed for missense mutations in pr
 
 The defualt number of permutations is 10,000 (which gives the smallest p-value of 1/10001). However, if the test is applied for the whole exome (~20,000 genes), more permutation may be needed to achieve exome-wide significance. For example, 1,000,000 (which gives the smallest p-value of 1/1000001). You can change the number of permutation by --permutation.
 
-## Input file format
+## File Format
 
 ### Phenotype file ###
 
