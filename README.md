@@ -8,15 +8,17 @@ JAVA virtual machine 1.6 or above is required.
 
 ## Example
 
-To run BOMP using the example files provided in exmaple/, please put the jar file (bomp.release.jar) and files in example/ in the same directory. Then you should be able to run the following command:
+To run BOMP using the example files provided in exmaple/, please put the jar file (**bomp.release.jar**) and **files in example/** in the same directory. Then you should be able to run BOMP using the following command:
 
 java -Xmx4000M -jar bomp.release.jar -p example.phenotype -v example.var -g example.geno -u example.gene --permutation 1000 --geneSet gene.set
+
+The result will be saved in bomp.out.
 
 ## Parameter setting
 
 Running BOMP without any parameters will list all parameters that can be tuned for BOMP:
 
-java -Xmx4000M -jar bomp.release.jar
+**java -Xmx4000M -jar bomp.release.jar**
 
 Note that the current parameter setting is designed for missense mutations in protein sequences. The algorithm can be applied on DNA sequences of course but the parameters (such as window size) might need to be changed to get better result. For example, the window size of 8 may be too small for DNA sequences.
 
