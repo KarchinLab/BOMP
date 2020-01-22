@@ -80,7 +80,7 @@ Example: example/gene.set
 
 Format:
 
-**gene_set_name \t description \t gene_name \[\t gene name\]
+**gene_set_name \t description \t gene_name \[\t gene name\]**
 
 The format follows the text format used in MSigDB (http://www.broadinstitute.org/gsea/msigdb/index.jsp).
 
