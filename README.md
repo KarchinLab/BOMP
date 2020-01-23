@@ -1,6 +1,17 @@
 # BOMP (Burden Or Mutation Position)
 
-BOMP is an association test for case-control study using WES (Whole-Exome Sequencing) data
+BOMP is an association test for case-control study using NGS (Next-Generation Sequencing) data. It is a hybrid likelihood ratio test comprising two tests:
+
+(1) a burden test (modeled by bionomial likelihood) which can incorporate variant allele frequency and functional prediction, and
+
+(2) a mutation position test (modeled by multinomial likelihood) which can effectively capture the signal when disease-causing mutations are clustered in certian regions in a gene.
+
+**Reference:**
+
+**Chen YC, Carter H, Parla J, Kramer M, Goes FS, Pirooznia M, et al. A hybrid likelihood model for sequence-based disease association studies. PLoS Genet. 2013;9(1):e1003224.**
+
+**Link: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003224**
+
 
 ## Installation
 
